@@ -24,6 +24,6 @@ let isAmungAlive = setInterval(() => {
   );
 
   if (fireLeft < 50 && fireLeft > 0 && amungTop >= 140) {
-    alert("Оюн бутту тип");
+    alert("Оюн бутту");
   }
 }, 10);
