@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.game {
+  margin-top: 300px;
+  width: 600px;
+  height: 200px;
+  border-bottom: 1px solid rgb(41, 40, 40);
+  margin: auto;
+  background-image: url(img/pngegg.png);
+  background-repeat: no-repeat;
+}
+
+#amung {
+  width: 50px;
+  height: 50px;
+  background-image: url(img/wonder-day-among-us-21.png);
+  background-size: 50px 50px;
+  position: relative;
+  top: 150px;
+  left: 5px;
+}
+#fire {
+  width: 20px;
+  height: 40px;
+  background-image: url(img/fire.png);
+  background-size: 20px 40px;
+  position: relative;
+  top: 110px;
+  left: 590px;
+  animation: fireMove 1s infinite linear;
+}
+
+@keyframes fireMove {
+  0% {
+    left: 590px;
+  }
+  100% {
+    left: -10px;
+  }
+}
+.jump {
+  animation: jump01 0.4s linear;
+}
+@keyframes jump01 {
+  0% {
+    left: 0px;
+  }
+  30% {
+    top: 100px;
+  }
+  50% {
+    top: 110px;
+  }
+  80% {
+    top: 190px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+.herose img {
+  width: 5%;
+}
